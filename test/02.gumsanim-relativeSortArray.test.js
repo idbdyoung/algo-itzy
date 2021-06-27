@@ -1,5 +1,5 @@
 import { expect } from "chai";
-import relativeSortArray from "";
+import relativeSortArray from "../lib/02.gumsanim-relativeSortArray";
 
 describe("relativeSortArray", function() {
   it("basic case", function() {
