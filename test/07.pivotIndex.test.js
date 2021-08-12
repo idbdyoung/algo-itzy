@@ -11,4 +11,10 @@ describe("pivotIndex", function() {
   it("basic case", function() {
     expect(pivotIndex([2,1,-1])).to.eql(0);
   });
+  it("edge case", function() {
+    expect(pivotIndex([-1,-1,-1,-1,-1,-1])).to.eql(-1);
+  });
+  it("edge case", function() {
+    expect(pivotIndex([-1,-1,-1,-1,-1,0])).to.eql(2);
+  });
 });
