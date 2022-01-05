@@ -1,5 +1,5 @@
 import { expect } from "chai";
-import solution from "../lib/1.로또의 최고 순위와 최저 순위";
+import solution from "../lib/c1.로또의 최고 순위와 최저 순위";
 
 describe("rightSideView", function() {
   it("basic case", function() {
