@@ -1,7 +1,7 @@
 import { expect } from "chai";
 import solution from "../lib/c1.로또의 최고 순위와 최저 순위";
 
-describe("rightSideView", function() {
+describe("로또의 최고 순위와 최저 순위", function() {
   it("basic case", function() {
     expect(solution([44, 1, 0, 0, 31, 25], [31, 10, 45, 1, 6, 19])).to.eql([3, 5]);
   });
